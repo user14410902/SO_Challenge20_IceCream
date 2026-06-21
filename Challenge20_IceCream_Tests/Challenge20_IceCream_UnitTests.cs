@@ -12,9 +12,9 @@ public class Challenge20_IceCream_UnitTests
 
     [TestCase("challenge_20_basic1.txt", "Chocolate:3,Vanilla:3,Strawberry:2")]
     [TestCase("challenge_20_basic2.txt", "Chocolate:3,Vanilla:3,Strawberry:2")]
-    [TestCase("challenge_20_s1.txt", "Chocolate:23,Vanilla:16,Strawberry:8")]
-    [TestCase("challenge_20_s2.txt", "Chocolate:17,Vanilla:18,Strawberry:13")]
-    [TestCase("challenge_20_s3.txt", "Chocolate:24,Vanilla:21,Strawberry:10")]
+    [TestCase("challenge_20_s1.txt", "Chocolate:25,Vanilla:18,Strawberry:9")]
+    [TestCase("challenge_20_s2.txt", "Chocolate:19,Vanilla:19,Strawberry:14")]
+    [TestCase("challenge_20_s3.txt", "Chocolate:26,Vanilla:23,Strawberry:11")]
     public void Test(string filename, string result)
     {
         var actual = Challenge20_IceCream.GetFlavourTubs(filename);

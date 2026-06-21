@@ -8,6 +8,7 @@ public static class Challenge20_IceCream
 
     const int SCOOPS_IN_TUB = 9;
     const double SCOOPS_PER_ATTENDEE = 1.5;
+    const int ONE_FOR_THE_SUPPORTER = 1;
 
     string line;
     var flavourTubsDictionary = new Dictionary<string, double>();
@@ -25,7 +26,7 @@ public static class Challenge20_IceCream
       {
         flavourTubsDictionary.Add(flavour, 0);
       }
-      flavourTubsDictionary[flavour] += int.Parse(countAttendeesAsString) * SCOOPS_PER_ATTENDEE / SCOOPS_IN_TUB;
+      flavourTubsDictionary[flavour] += (long.Parse(countAttendeesAsString) + ONE_FOR_THE_SUPPORTER) * SCOOPS_PER_ATTENDEE / SCOOPS_IN_TUB;
     }
 
     foreach (var flavour in flavourTubsDictionary.Keys)
