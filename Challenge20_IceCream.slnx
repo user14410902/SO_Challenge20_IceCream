@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Challenge20_IceCream_Console/Challenge20_IceCream_Console.csproj" />
+  <Project Path="Challenge20_IceCream_Lib/Challenge20_IceCream_Lib.csproj" />
+  <Project Path="Challenge20_IceCream_Tests/Challenge20_IceCream_Tests.csproj" />
+</Solution>
