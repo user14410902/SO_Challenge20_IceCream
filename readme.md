@@ -1,0 +1,1 @@
+My solution to the Stackoverflow challenge 20: https://stackoverflow.com/beta/challenges/79962428/challenge-20-we-all-scream-for-ice-cream
